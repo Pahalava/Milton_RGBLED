@@ -9,7 +9,7 @@
 
 #define FRACT(float x) ( x - int(x);)
 #define MIX(float a, float b, float t) ( a + ( b - a ) * t ;)
-#defing STEP(float e, float x) ( x < e ? 0.0 : 1.0 ;)
+#define STEP(float e, float x) ( x < e ? 0.0 : 1.0 ;)
 
 Milton_RGB_Tools::Milton_RGB_Tools()
 {}
